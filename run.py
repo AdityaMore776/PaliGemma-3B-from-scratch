@@ -5,8 +5,8 @@ from huggingface_hub import snapshot_download
 
 from model import KVCache, PaliGemmaForConditionalGeneration, PaliGemmaProcessor, load_hf_model
 
-PROMPT="This building is "
-IMAGE_FILE_PATH="images/screenshot.png"
+PROMPT=""
+IMAGE_FILE_PATH=""
 MAX_TOKENS_TO_GENERATE=100
 TEMPERATURE=0.8
 TOP_P=0.9
